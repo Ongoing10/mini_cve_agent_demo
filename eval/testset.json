@@ -1,0 +1,52 @@
+[
+  {
+    "cve_id": "CVE-2022-42889",
+    "package": "org.apache.commons:commons-text",
+    "ecosystem": "Maven",
+    "severity": "CRITICAL",
+    "fixed_versions": ["1.10.0"],
+    "affected": "1.5 - 1.9",
+    "group": "cu",
+    "note": "Text4Shell. CVSS 3.1 = 9.8. Nguon dap an: thong bao cua Apache Commons (lists.apache.org, 13/10/2022): 'upgrade to Apache Commons Text 1.10.0'; doi chieu GHSA-599f-7c49-w659."
+  },
+  {
+    "cve_id": "CVE-2021-23337",
+    "package": "lodash",
+    "ecosystem": "npm",
+    "severity": "HIGH",
+    "fixed_versions": ["4.17.21"],
+    "affected": "< 4.17.21",
+    "group": "cu",
+    "note": "Command injection qua ham template. CVSS 3.1 = 7.2. Lodash khong co advisory rieng; CNA la Snyk. Ban va 4.17.21 (release 20/02/2021); doi chieu GHSA-35jh-r3h4-6jhm."
+  },
+  {
+    "cve_id": "CVE-2023-32681",
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "severity": "MEDIUM",
+    "fixed_versions": ["2.31.0"],
+    "affected": "2.3.0 - 2.30.0",
+    "group": "cu",
+    "note": "Lo header Proxy-Authorization khi redirect. CVSS 3.1 = 6.1. Nguon dap an: advisory cua chinh du an psf/requests GHSA-j8r2-6x86-q33q ('Starting in Requests v2.31.0...')."
+  },
+  {
+    "cve_id": "CVE-2026-102989",
+    "package": "@tanstack/react-start",
+    "ecosystem": "npm",
+    "severity": "CRITICAL",
+    "fixed_versions": ["1.168.60"],
+    "affected": "1.143.12 - < 1.168.60",
+    "group": "moi",
+    "note": "Reflected XSS khong can xac thuc trong phan hoi server function. CVSS 3.1 = 9.3. Nguon dap an: blog TanStack 30/09/2026 (tanstack.com/blog/tanstack-start-security-update-cve-2026-102989); GHSA-qx66-fv34-fjm8 cong bo 15/10/2026. Cac goi khac cung loi: @tanstack/solid-start 1.168.57, @tanstack/vue-start 1.168.56, @tanstack/start-server-core 1.169.39."
+  },
+  {
+    "cve_id": "CVE-2026-102925",
+    "package": "virtualenv",
+    "ecosystem": "PyPI",
+    "severity": "HIGH",
+    "fixed_versions": ["21.7.13"],
+    "affected": "<= 21.7.12",
+    "group": "moi",
+    "note": "Script activate cua bash/fish chay lenh nam trong duong dan. CVSS 3.1 = 7.8. Nguon dap an: advisory cua pypa/virtualenv GHSA-p58f-9548-mpm2 (18/09/2026). Luu y: advisory cua du an ghi 'No known CVE'; ma CVE duoc gan sau (OSV ghi alias CVE-2026-102925, PYSEC-2026-4013, 01/10/2026). Agent tim theo ma CVE co the gap kho - day la diem can quan sat."
+  }
+]
